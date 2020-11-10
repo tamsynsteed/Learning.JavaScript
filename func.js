@@ -1,8 +1,7 @@
-function greet(name){ /* name is a parameter, greet is a function*/
-    res= document.write("Hello" +  name);
-    return res
-}
-
-greet("odwa"); /* arguement*/
-
-
+function totalcost(x,y){
+      x = parseInt(document.getElementById("cost1").value);
+      y = parseFloat(document.getElementById("cost2").value);
+     var answer;
+     answer = x*y;
+     alert("The total cost is :" + answer);
+ }
